@@ -1,9 +1,6 @@
 create table ss06_b5;
 use ss06_b5;
 
-drop table if exists orders;
-drop table if exists customers;
-
 create table customers(
     customer_id int primary key,
     full_name varchar(255) not null,
