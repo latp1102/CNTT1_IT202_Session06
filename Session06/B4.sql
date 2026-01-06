@@ -1,9 +1,6 @@
 create table ss06_b4;
 use ss06_b4;
 
-drop table if exists order_items;
-drop table if exists products;
-
 create table products (
     product_id int primary key,
     product_name VARCHAR(255) not null,
