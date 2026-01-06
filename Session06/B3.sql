@@ -1,7 +1,5 @@
 create table ss06_b3;
 use ss06_b3;
-drop table if exists orders;
-drop table if exists customers;
 
 create table orders(
 	order_id int primary key,
